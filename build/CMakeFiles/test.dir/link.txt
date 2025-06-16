@@ -1,0 +1,1 @@
+g++ CMakeFiles/test.dir/test.cpp.o -o test   -L/usr/local/lib 
