@@ -8,7 +8,7 @@ using _float = long double;
 
 class ziggurat256
 {
-private:
+protected:
     static constexpr uint32_t ZIGGURAT_N = 256;
     static constexpr _float AREA = 0.00492867323399;
     static constexpr _float R = 3.6541528853610088;
@@ -21,7 +21,6 @@ private:
     std::uniform_real_distribution<_float> dist_float;
     std::uniform_real_distribution<_float> dist_uniform;
 
-    friend class ziggurat256_secret;
     
     void init_tables()
     {
