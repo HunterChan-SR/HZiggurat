@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/test_kkrt_ot.dir/all
 all: CMakeFiles/test.dir/all
 .PHONY : all
 
@@ -72,35 +72,35 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/test_kkrt_ot.dir/clean
 clean: CMakeFiles/test.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/test_kkrt_ot.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/build/CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/test_kkrt_ot.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_kkrt_ot.dir/build.make CMakeFiles/test_kkrt_ot.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_kkrt_ot.dir/build.make CMakeFiles/test_kkrt_ot.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/build/CMakeFiles --progress-num=3,4 "Built target test_kkrt_ot"
+.PHONY : CMakeFiles/test_kkrt_ot.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
+CMakeFiles/test_kkrt_ot.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_kkrt_ot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/build/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : CMakeFiles/test_kkrt_ot.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
+test_kkrt_ot: CMakeFiles/test_kkrt_ot.dir/rule
+.PHONY : test_kkrt_ot
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+CMakeFiles/test_kkrt_ot.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_kkrt_ot.dir/build.make CMakeFiles/test_kkrt_ot.dir/clean
+.PHONY : CMakeFiles/test_kkrt_ot.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/test.dir
@@ -109,7 +109,7 @@ CMakeFiles/main.dir/clean:
 CMakeFiles/test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/build/CMakeFiles --progress-num=3,4 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/build/CMakeFiles --progress-num=1,2 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.

@@ -1,4 +1,4 @@
-/home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/build/CMakeFiles/main.dir
+/home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/build/CMakeFiles/test_kkrt_ot.dir
 /home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/build/CMakeFiles/test.dir
 /home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/build/CMakeFiles/edit_cache.dir
 /home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/build/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,7 @@
 CMakeFiles/test.dir/test.cpp.o: \
  /home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/test.cpp \
  /usr/include/stdc-predef.h \
- /home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/test/ziggurat_test.hpp \
+ /home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/test/ziggurat256_test.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -158,7 +158,7 @@ CMakeFiles/test.dir/test.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/include/ziggurat.hpp \
+ /home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/include/ziggurat256.hpp \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

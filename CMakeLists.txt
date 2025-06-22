@@ -11,7 +11,7 @@ include_directories(/usr/local/include)
 
 link_directories(/usr/local/lib)
 
-add_executable(main main.cpp)
+add_executable(test_kkrt_ot test_kkrt_ot.cpp)
 # add_executable(sender sender.cpp)
 # add_executable(receiver receiver.cpp)
 
@@ -64,14 +64,16 @@ find_package(libOTe REQUIRED)
 #         sparse_dpf
 # )
 
-target_link_libraries(main oc::libOTe oc::libOTe_Tests oc::cryptoTools pthread)
+target_link_libraries(test_kkrt_ot oc::libOTe oc::libOTe_Tests oc::cryptoTools pthread)
 # target_link_libraries(sender oc::libOTe oc::libOTe_Tests oc::cryptoTools pthread)
 # target_link_libraries(receiver oc::libOTe oc::libOTe_Tests oc::cryptoTools pthread)
 
-
+# define the debug mode
+# add_definitions(-DDEBUG)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 include_directories(${CMAKE_SOURCE_DIR}/test)
 add_executable(test 
     test.cpp
 )
+# target_link_directories(test oc::libOTe oc::libOTe_Tests oc::cryptoTools pthread)

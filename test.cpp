@@ -1,9 +1,16 @@
 // test.cpp
-#include "ziggurat_test.hpp"
+#include "ziggurat256_test.hpp"
+
+// #include <cmath>
+// #include <cstdint>
+// #include <random>
+// #include <vector>
+// #include <iostream>
 
 int main()
 {
-    test::testZiggurat();
+    test::testZiggurat256();
 
+    puts("");
     return 0;
 }

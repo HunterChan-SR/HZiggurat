@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named test_kkrt_ot
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+test_kkrt_ot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_kkrt_ot
+.PHONY : test_kkrt_ot
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+test_kkrt_ot/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_kkrt_ot.dir/build.make CMakeFiles/test_kkrt_ot.dir/build
+.PHONY : test_kkrt_ot/fast
 
 #=============================================================================
 # Target rules for targets named test
@@ -141,30 +141,6 @@ test: cmake_check_build_system
 test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
 
 test.o: test.cpp.o
 .PHONY : test.o
@@ -190,6 +166,30 @@ test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
 .PHONY : test.cpp.s
 
+test_kkrt_ot.o: test_kkrt_ot.cpp.o
+.PHONY : test_kkrt_ot.o
+
+# target to build an object file
+test_kkrt_ot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_kkrt_ot.dir/build.make CMakeFiles/test_kkrt_ot.dir/test_kkrt_ot.cpp.o
+.PHONY : test_kkrt_ot.cpp.o
+
+test_kkrt_ot.i: test_kkrt_ot.cpp.i
+.PHONY : test_kkrt_ot.i
+
+# target to preprocess a source file
+test_kkrt_ot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_kkrt_ot.dir/build.make CMakeFiles/test_kkrt_ot.dir/test_kkrt_ot.cpp.i
+.PHONY : test_kkrt_ot.cpp.i
+
+test_kkrt_ot.s: test_kkrt_ot.cpp.s
+.PHONY : test_kkrt_ot.s
+
+# target to generate assembly for a file
+test_kkrt_ot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_kkrt_ot.dir/build.make CMakeFiles/test_kkrt_ot.dir/test_kkrt_ot.cpp.s
+.PHONY : test_kkrt_ot.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,14 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
 	@echo "... test"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... test_kkrt_ot"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... test_kkrt_ot.o"
+	@echo "... test_kkrt_ot.i"
+	@echo "... test_kkrt_ot.s"
 .PHONY : help
 
 

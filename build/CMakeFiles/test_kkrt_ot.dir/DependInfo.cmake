@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
+  "/home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/test_kkrt_ot.cpp" "CMakeFiles/test_kkrt_ot.dir/test_kkrt_ot.cpp.o" "gcc" "CMakeFiles/test_kkrt_ot.dir/test_kkrt_ot.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/main.cpp.o: \
- /home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/main.cpp \
+CMakeFiles/test_kkrt_ot.dir/test_kkrt_ot.cpp.o: \
+ /home/xiaohuo/workspace/lxg/myProject/libOTe_to_test/test_kkrt_ot.cpp \
  /usr/include/stdc-predef.h \
  /usr/local/include/libOTe/NChooseOne/Kkrt/KkrtDefines.h \
  /usr/local/include/libOTe/NChooseOne/Kkrt/KkrtNcoOtReceiver.h \
