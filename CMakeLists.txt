@@ -69,7 +69,7 @@ target_link_libraries(test_kkrt_ot oc::libOTe oc::libOTe_Tests oc::cryptoTools p
 # target_link_libraries(receiver oc::libOTe oc::libOTe_Tests oc::cryptoTools pthread)
 
 # define the debug mode
-# add_definitions(-DDEBUG)
+add_definitions(-DDEBUG)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 include_directories(${CMAKE_SOURCE_DIR}/test)

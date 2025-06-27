@@ -1,3 +1,4 @@
+#pragma once
 #include <cmath>
 #include <cstdint>
 #include <random>
@@ -87,6 +88,7 @@ public:
 #ifndef DEBUG
         return;
 #endif
+        std::cout<<"\ndebug_print\n";
         for (size_t i = 0; i <= ZIGGURAT_N; ++i)
         {
             if (sizeof(_float) == sizeof(double))
@@ -106,6 +108,7 @@ public:
 #ifndef DEBUG
         return;
 #endif
+        std::cout<<"\nchceck\n";
         for (size_t i = 1; i < ZIGGURAT_N; ++i)
         {
             _float area = X[i] * (Y[i + 1] - Y[i]);
